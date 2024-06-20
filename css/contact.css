@@ -1,0 +1,22 @@
+.input {
+    width: 98%;
+}
+body{
+    margin-bottom: -147px;
+}
+
+@media only screen and (max-width: 1950px) {
+    .input {
+        width: 56%;
+    }
+    #description {
+        width: 56%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    form {
+        width: 101%;
+    }
+}
+
+

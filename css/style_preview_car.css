@@ -1,0 +1,90 @@
+#car_container,
+#car_container1,
+#car_container2,
+#car_container3,
+#car_container4 {
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid green;
+    position: absolute;
+    z-index: 1;
+    margin-top: 0;
+    height: 156px;
+  }
+
+  #car_container1 {left: 24%;}
+  #car_container2 {left: 39%;}
+  #car_container3 {left: 54%;}
+  #car_container4 {left: 69%;}
+
+  #car_preview {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .bloc_preview {
+    width: 300px;
+    box-shadow: 0 0 2em rgba(122, 122, 122, 0.192);
+    border-radius: 4px;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    border-radius: 10px;
+  }
+  
+  .bloc_preview button {
+    background-color:#63BD41;
+    width: 113px;
+    border: none;
+    height: 173px;
+    color: white;
+  }
+  
+  .bloc_preview button:hover {
+    background-color: #4e9933;
+  }
+  
+  .bt_left {
+    width: 45px;
+    border-radius: 10px 0 0 10px;
+    margin: -16px 0;
+  }
+  
+  .bt_right {
+    width: 45px;
+    border-radius: 0 10px 10px 0;
+    margin: -16px 0;
+  }
+  
+  .bloc_preview img.img_preview,
+  .bloc_preview img.img_preview1,
+  .bloc_preview img.img_preview2,
+  .bloc_preview img.img_preview3,
+  .bloc_preview img.img_preview4 {
+    image-rendering: auto;
+    image-resolution:from-image;
+    width: 0;
+    height: 156px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .bloc_preview img.active,
+  .bloc_preview img.active1,
+  .bloc_preview img.active2,
+  .bloc_preview img.active3,
+  .bloc_preview img.active4 {
+    width: 200px;
+  }
+  
+  #carousel,
+  #carousel1,
+  #carousel2,
+  #carousel3,
+  #carousel4 {
+    display: flex;
+  }
+  
