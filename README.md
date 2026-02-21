@@ -1,81 +1,49 @@
 🚗 Vaika Location
 
-Vaika Location est une application web de réservation de voitures en ligne, développée en PHP natif (PHP pur).
-Elle propose deux interfaces distinctes :
+Vaika Location is an `online car rental web application`, developed in pure `PHP (native PHP)`. It features two distinct interfaces:
 
-👤 Interface Utilisateur
+- 👤 User Interface
+- 🛠 Administrator Interface
 
-🛠 Interface Administrateur
+The goal of the project is to allow clients to browse available vehicles, make online reservations, and enable administrators to manage the fleet and reservations.
 
-L’objectif du projet est de permettre aux clients de consulter les véhicules disponibles, effectuer des réservations en ligne et permettre aux administrateurs de gérer la flotte et les réservations.
+📌 Features
 
-📌 Fonctionnalités
-👤 Interface Utilisateur
+👤 User Interface
+- Sign Up / Login
+- Browse available vehicles
+- Search by:
+* Brand
+* Price
+* Availability
+- Online reservation
+- Reservation history
+- Cancel reservation (if allowed)
+- Editable user profile
 
-Inscription / Connexion
+🛠 Administrator Interface
+Dashboard (statistics)
+- Vehicle management:
+* Add a vehicle
+* Edit a vehicle
+* Delete a vehicle
+- Reservation management:
+* Approve / Reject a reservation
+* View all reservations
+- User management
+- Availability management
 
-Consultation des véhicules disponibles
+🛠 Technologies Used
+- `PHP` (native / procedural or object-oriented)
+- `MySQL`
+- `HTML5`
+- `CSS3`
+- `JavaScript`
+- `Bootstrap`
 
-Recherche par :
-
-Marque
-
-Prix
-
-Disponibilité
-
-Réservation en ligne
-
-Historique des réservations
-
-Annulation de réservation (si autorisée)
-
-Profil utilisateur modifiable
-
-🛠 Interface Administrateur
-
-Tableau de bord (statistiques)
-
-Gestion des véhicules :
-
-Ajouter un véhicule
-
-Modifier un véhicule
-
-Supprimer un véhicule
-
-Gestion des réservations :
-
-Valider / Refuser une réservation
-
-Voir toutes les réservations
-
-Gestion des utilisateurs
-
-Gestion des disponibilités
-
-🛠 Technologies utilisées
-
-PHP (natif / procédural ou orienté objet)
-
-MySQL
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Bootstrap
-
-🚀 Améliorations futures
-
-Paiement en ligne (Stripe / PayPal)
-
-Système de notifications email
-
-Upload multiple d’images
-
-Filtrage avancé
-
-API REST
+🚀 Future Improvements
+- Online payment integration (Stripe / PayPal)
+- Email notification system
+- Multiple image uploads
+- Advanced filtering
+- REST API
